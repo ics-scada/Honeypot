@@ -32,35 +32,37 @@ Although honeypots have gained a significant interaction in the last few years, 
 
 
 # The Complexities of Honeypots Varies
+
 There are different types of honeypots, each designed for different production or research purposes.
 
-##### Pure Honeypot
+### Pure Honeypot
 A pure honeypot refers to a full-scale system running on various servers. It completely mimics the production system. Within a pure honeypot is data made to look confidential, as well as “sensitive” user information, which have a number of sensors used to track and observe attacker activity.
 
-##### High-interaction Honeypot
+### High-interaction Honeypot
 A high-interaction honeypot is designed to get attackers to invest as much time as possible inside the honeypot. This gives the security team more opportunities to observe the targets and intentions of the attacker and more chances to discover vulnerabilities within the system. 
 A high-interaction honeypot may have extra systems, databases, and processes that the attacker will want to try to infiltrate. Researchers can observe how the attacker goes about looking for information, as well as which information they prefer and how they attempt to escalate access privileges.
 
-##### Mid-interaction Honeypot
+### Mid-interaction Honeypot
 Mid-interaction honeypots imitate elements of the application layer, but they do not have an operating system. Their mission is to confuse an attacker or stall them so the organization has more time to ascertain how to react to the kind of attack in question.
 
-##### Low-interaction Honeypot
+### Low-interaction Honeypot
 Low-interaction honeypots are less resource-intensive and gather rudimentary information regarding the kind of threat and where it came from. These are relatively simple to set up, and they make use of Transmission Control Protocol (TCP), Internet Protocol (IP), and network services. However, there is nothing inside the honeypot to hold the attacker’s attention for a considerable amount of time.
 
 # Different Types of Honeypots and How They Work
-##### Malware Honeypot
+
+### Malware Honeypot
 Malware honeypots use attack vectors already known to lure in malware. They can, for example, imitate a Universal Serial Bus (USB) storage device. If a computer comes under attack, the honeypot fools the malware into attacking the emulated USB.
 
-##### Spam Honeypot
+### Spam Honeypot
 Spam honeypots are designed to attract spammers by using open proxies and mail relays. Spammers perform tests on mail relays by using them to send themselves an email. If they are successful, they can then transmit large amounts of spam. A spam trap can identify a spammer’s test and then block the spam they try to send out.
 
-##### Database Honeypot
+### Database Honeypot
 A database honeypot is used to make decoy databases to attract database-specific attacks like SQL injections, which illicitly manage data. These kinds of honeypots can be implemented using a database firewall.
 
-##### Client Honeypot
+### Client Honeypot
 Client honeypots attempt to lure in malicious servers that attackers use while hacking clients. They pose as a client to observe how an attacker makes modifications to a server during the attack. Client honeypots are typically run in a virtualized environment and have containment protections in place to reduce the risk of exposure to the researchers.
 
-##### Honeynet
+### Honeynet
 Honeynets consist of a network of honeypots. With different kinds of honeypots forming a honeynet, several types of attacks can be studied, such as distributed denial-of-service (DDoS) attacks, attacks to a content delivery network (CDN), or a ransomware attack. While a honeynet is used to study different kinds of attacks, it contains all traffic, both inbound and outbound, to protect the rest of the organization’s system.
 
 By monitoring traffic coming into the honeypot system, you can assess:
