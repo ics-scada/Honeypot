@@ -10,8 +10,8 @@ This Report provides:
 * How honeypots work
 * The complexities of honeypots varies
 * Different types of honeypots and how they work
-* Benefits of a Honeypot
-* The dangers of honeypots
+* Benefits of a honeypot
+
 
 
 
