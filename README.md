@@ -13,7 +13,8 @@ This Report provides:
 * Benefits of a Honeypot
 * The dangers of honeypots
 
-***
+
+
 # The Definition of a Honeypot
 
 Honeypot might remind you of Mata Hari style spies, shocking plot twists and intriguing schemes but in the cybersecurity context, it has a whole different meaning.
@@ -28,7 +29,7 @@ Although honeypots have gained a significant interaction in the last few years, 
 
 
 
-***
+
 
 # The Complexities of Honeypots Varies
 There are different types of honeypots, each designed for different production or research purposes.
@@ -70,7 +71,6 @@ By monitoring traffic coming into the honeypot system, you can assess:
 * how well your security measures are working to stop cyberattacks
 
 
-***
 # Benefits of a Honeypot
 Honeypots come with several advantages a security team can leverage to improve network safety.
 
