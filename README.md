@@ -7,7 +7,6 @@
 This Report provides:
 
 * The definition of a honeypot
-* How honeypots work
 * The complexities of honeypots varies
 * Different types of honeypots and how they work
 * Benefits of a honeypot
