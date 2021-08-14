@@ -81,4 +81,3 @@ Honeypots are an efficient way to see how your security team and the system will
 #### Straightforward and Low Maintenance
 Honeypots are both easy-to-implement and effective tools for providing alerts and information regarding the attacker's behavior. Your security team can deploy a honeypot and just wait for an attacker to interact with it. There is no need to constantly monitor the decoy environment, and you do not have to arm it with intel regarding known threats for it to be an effective tool.
 
-```
